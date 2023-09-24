@@ -53,18 +53,7 @@
           "style": "diamond",
           "template": " {{ .HEAD }}{{ if .Staging.Changed }}<#FF6F00> \uf046 {{ .Staging.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
           "type": "git"
-        },
-	{
-  		"type": "sysinfo",
-  		"powerline_symbol": "",
-  		"foreground": "#000000",
-  		"background": "#00cc99",
-  		"template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
-  		"properties": {
-    			"precision": 2
-  	},
-  		"style": "powerline"
-	}
+        }
       ],
       "type": "prompt"
     }
