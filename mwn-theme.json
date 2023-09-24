@@ -16,6 +16,25 @@
           "template": "{{ .Path }} ",
           "type": "path"
         },
+	{
+  		"type": "time",
+		 "style": "plain",
+  		"foreground": "#007ACC",
+  		"properties": {
+    			"time_format": "15:04:05"
+  		}
+	},
+	{
+  		"type": "sysinfo",
+  		"powerline_symbol": "",
+  		"foreground": "#000000",
+  		"background": "#00cc99",
+  		"template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
+  		"properties": {
+    			"precision": 2
+  		},
+  		"style": "powerline"
+	},
         {
           "background": "#ff9900",
           "background_templates": [
