@@ -38,7 +38,7 @@
 	{
   		"type": "sysinfo",
   		"powerline_symbol": "",
-  		"foreground": "#ffffff",
+  		"foreground": "#000000",
   		"background": "#00cc99",
   		"template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
   		"properties": {
