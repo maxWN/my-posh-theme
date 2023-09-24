@@ -2,10 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
-      "alignment": "left",
+      "alignment": "right",
       "segments": [
         {
-          "background": "#0099cc",
+          "background": "#009999
+",
           "foreground": "#000000",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "\uE0B0",
@@ -17,7 +18,7 @@
           "type": "path"
         },
         {
-          "background": "#3AD900",
+          "background": "#ff9900",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#FFC600{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FFCC80{{ end }}",
