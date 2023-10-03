@@ -36,6 +36,18 @@
   		"style": "powerline"
 	},
         {
+          "background": "#83769c",
+          "foreground": "#ffffff",
+          "properties": {
+            "style": "roundrock",
+            "threshold": 0
+          },
+          "style": "diamond",
+          "template": " \ueba2{{ .FormattedMs }}\u2800",
+          "trailing_diamond": "\ue0b4",
+          "type": "executiontime"
+        },
+        {
           "background": "#ff9900",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#FFC600{{ end }}",
