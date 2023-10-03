@@ -36,11 +36,10 @@
   		"style": "powerline"
 	},
         {
-          "background": "#003366",
-          "foreground": "#ffffff",
+          "background": "#000000",
+          "foreground": "#009999",
           "properties": {
-            "style": "roundrock",
-            "threshold": 0
+            "style": "full"
           },
           "style": "diamond",
           "template": " \ueba2{{ .FormattedMs }}\u2800",
