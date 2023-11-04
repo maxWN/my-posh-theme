@@ -29,7 +29,7 @@
   		"powerline_symbol": "",
   		"foreground": "#000000",
   		"background": "#00cc99",
-  		"template": "  {{ round .PhysicalPercentUsed .Precision }}% ",
+  		"template": " f061a {{ round .PhysicalPercentUsed .Precision }}% ",
   		"properties": {
     			"precision": 2
   		},
